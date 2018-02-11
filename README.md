@@ -1,9 +1,26 @@
+#After
+
+<p align="center" >
+    <img alt="react-native-gifted-chat" src="https://media.giphy.com/media/3o7WIq8RMAQB92cUSI/giphy.gif" width="480" height="484" />
+</p>
+
+#Before
+
+<p align="center" >
+    <img alt="react-native-gifted-chat" src="https://media.giphy.com/media/l4pT7TwVEaawBxBzG/giphy.gif" width="480" height="484" />
+</p>
+
+
 
 # react-native-root-view-background
+
+Library is working on IOS and Android.
 
 ## Getting started
 
 `$ npm install react-native-root-view-background --save`
+
+`$ yarn add react-native-root-view-background`
 
 ### Mostly automatic installation
 
@@ -34,20 +51,15 @@
       compile project(':react-native-root-view-background')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNRootViewBackground.sln` in `node_modules/react-native-root-view-background/windows/RNRootViewBackground.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Root.View.Background.RNRootViewBackground;` to the usings at the top of the file
-  - Add `new RNRootViewBackgroundPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
 
 ## Usage
 ```javascript
-import RNRootViewBackground from 'react-native-root-view-background';
+import { setRootViewBackgroundColor } from 'react-native-root-view-background';
 
-// TODO: What to do with the module?
-RNRootViewBackground;
+export default class Main extends Component {
+    componentDidMount(){
+        setRootViewBackgroundColor('#ccc');
+    }
+}
 ```
   
