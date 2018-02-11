@@ -1,17 +1,27 @@
 {
   "name": "react-native-root-view-background",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "react-native"
-  ],
   "author": "Jan Romaniak",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.52.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johniak/react-native-root-view-background.git"
+  },
+  "keywords": [
+    "android",
+    "ios",
+    "react-native",
+    "react",
+    "react-component",
+    "root view"
+  ],
+  "homepage": "https://github.com/johniak/react-native-root-view-background"
 }
