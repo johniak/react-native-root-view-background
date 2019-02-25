@@ -38,7 +38,7 @@ Library is working on IOS and Android.
 
 #### Android
 
-1. Open up `android/app/src/main/java/[...]/MainActivity.java`
+1. Open up `android/app/src/main/java/[...]/MainApplication.java`
   - Add `import com.reactlibrary.RNRootViewBackgroundPackage;` to the imports at the top of the file
   - Add `new RNRootViewBackgroundPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
