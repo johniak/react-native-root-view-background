@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/author/RNRootViewBackground.git", :tag => "master" }
   s.source_files  = "RNRootViewBackground/**/*.{h,m}"
   s.requires_arc = true
+  s.homepage     = "https://github.com/yuntitech/react-native-root-view-background"
 
 
   s.dependency "React"
