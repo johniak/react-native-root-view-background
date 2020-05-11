@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNRootViewBackground"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "RNRootViewBackground"
   s.description  = <<-DESC
                   RNRootViewBackground
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/RNRootViewBackground.git", :tag => "master" }
-  s.source_files  = "RNRootViewBackground/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 
