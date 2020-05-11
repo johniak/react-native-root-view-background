@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNRootViewBackground"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "RNRootViewBackground"
   s.description  = <<-DESC
                   RNRootViewBackground
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/johniak/react-native-root-view-background"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
